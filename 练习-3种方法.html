@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var arr=[["张三","男","吃饭"],["李四","女","睡觉"],["王五","男","打豆豆"]];
+
+        //1、追加子节点
+        var table=document.createElement("table");//创建table
+//        table.setAttribute("id","mytable");
+//        table.setAttribute("width","400px");
+//        table.setAttribute("border","1px");
+//        table.setAttribute("cellSpacing","0");//cellSpacing单元格之间的空间
+//        table.setAttribute("cellPadding","0");//cellPadding单元边沿与其内容之间的空白
+//        var tr;
+//        var td;
+//        for(var i=0;i<arr.length;i++){
+//            tr=document.createElement("tr");
+//            for(var j=0;j<arr[i].length;j++){
+//                td=document.createElement("td");
+//                td.innerText=arr[i][j];
+//                tr.appendChild(td);//appendChild()向节点添加最后一个子节点
+//            }
+//            table.appendChild(tr);
+//        }
+//        document.body.appendChild(table);
+
+        //2、字符串拼接
+        var str="<table width='400px' cellspacing='0' border='1px'>";
+        for(var i=0;i<arr.length;i++){
+            str+="<tr>";
+            for(var j=0;j<arr[i].length;j++){
+                str+="<td>"+arr[i][j]+"</td>";
+            }
+            str+="</tr>";
+        }
+        str+="</table>";
+        var body=document.getElementsByTagName("body")[0];
+        body.innerHTML=str;
+
+
+        //在HTML DOM里面，有几个对象，比如body、table、frame
+        //3、table对象
+//        table.border="1";
+//        table.width="400px";
+//        table.cellSpacing="0";
+//        for(var i=0;i<arr.length;i++){
+//            table.insertRow(i);
+//            for(var j=0;j<arr[i].length;j++){
+//                table.rows[i].insertCell(j);
+//                table.rows[i].cells[j].appendChild( document.createTextNode(arr[i][j]) );
+//            }
+//        }
+//        document.body.appendChild(table);
+    </script>
+</body>
+</html>
