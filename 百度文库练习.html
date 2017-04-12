@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #txt{
+            width: 400px;
+            height:500px;
+        }
+        #mydiv{
+            width: 450px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px green solid;
+            position: absolute;
+            display: none;
+            z-index: 3;
+            color: green;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+     <textarea id="txt" readonly="yes">测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+         测试文字  测试文字  测试文字  测试文字  测试文字  测试文字
+     </textarea>
+     <div id="mydiv">复制 | 搜索 | 翻译 | 百科</div>
+
+     <script>
+         var txt=document.getElementById("txt");
+         var div=document.getElementById("mydiv");
+         var x,y=0;//可以同时定义多个变量，用“,”分开
+         txt.onselect=function () {
+             div.style.display="block";
+             div.style.left=x+"px";
+             div.style.top=y+"px";
+         };
+         document.onmouseup=function (event) {
+             var e=event?event:window.event;
+             x=e.clientX;
+             y=e.clientY;
+         };
+         document.onmousedown=function () {
+             div.style.display="none";
+         }
+     </script>
+</body>
+</html>
