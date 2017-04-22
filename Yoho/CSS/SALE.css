@@ -1,0 +1,583 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    width:100%;
+    height:40px;
+    background: #f4f4f4;
+}
+
+.topLeft{
+    width:120px;
+    height:40px;
+    line-height:40px;
+    float: left;
+    margin-left:100px;
+}
+.topLeft-span{
+    width: 16px;
+    height:12px;
+    display: inline-block;
+    background: url("../image/sprite.base.png");
+    background-position: -18px -68px;
+}
+.topLeft-a{
+    text-decoration: none;
+    color: #000;
+}
+.topLeft-bottom{
+    width:200px;
+    height:210px;
+    background: #f4f4f4;
+    margin-left:100px;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.topLeft-bottom ul li{
+    list-style: none;
+    line-height: 40px;
+
+}
+.topLeft-bottom ul li a{
+    text-decoration: none;
+    color: #9196a0;
+    margin-left:24px;
+}
+.topLeft-bottom1:hover{
+    color: red;
+}
+.topRight{
+    width:790px;
+    height:40px;
+    margin-left:476px;
+}
+.topRight ul{
+    line-height: 40px;
+}
+.topRight ul li{
+    list-style: none;
+    float: left;
+}
+.topRight ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.topRight-li1{
+    width:190px;
+    height:20px;
+}
+.topRight-li2{
+    width:100px;
+    height:20px;
+}
+.topRight-li2-span{
+    display: inline-block;
+    width:10px;
+    height:5px;
+    background: url("../image/sprite.base.png");
+    background-position: -89px -16px;
+}
+.topRight-li3{
+    width:110px;
+    height:20px;
+}
+.topRight-li3-span{
+    display: inline-block;
+    width:11px;
+    height:14px;
+    background: url("../image/sprite.base.png");
+    background-position: -72px -50px;
+}
+.topRight-li4{
+    width:115px;
+    height:20px;
+}
+.topRight-li4-span{
+    display: inline-block;
+    width:15px;
+    height:13px;
+    background: url("../image/sprite.base.png");
+    background-position: -72px -32px;
+}
+.topRight-li5{
+    width:90px;
+    height:20px;
+}
+.topRight-li5-span{
+    display: inline-block;
+    width:16px;
+    height:11px;
+    background: url("../image/sprite.base.png");
+    background-position: 0px -68px;
+}
+.topRight-li6{
+    width:115px;
+    height:20px;
+}
+.topRight-li6-span{
+    display: inline-block;
+    width:16px;
+    height:11px;
+    background: url("../image/sprite.base.png");
+    background-position: 0px -68px;
+}
+.topRight-li7{
+    width:70px;
+    height:20px;
+}
+.topRight-li7-span{
+    display: inline-block;
+    width:10px;
+    height:14px;
+    background: url("../image/sprite.base.png");
+    background-position: -89px 0px;
+}
+#topRight-li7-a{
+    font-size: 14px;
+    color: red;
+}
+.logo{
+    width:100%;
+    height:140px;
+    position: relative;
+}
+.logoLeft{
+    width:430px;
+    height:60px;
+    position: absolute;
+    left:100px;
+    top:78px;
+}
+
+.boy{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    background: black;
+}
+.boy1{
+    height:25px;
+}
+.BOY1{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.BOY2{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.girl{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.girl1{
+    height:25px;
+}
+.GIRL1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.GIRL2{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.kids{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.kids1{
+    height:25px;
+}
+.KIDS1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.KIDS2{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.logoLeft-H1{
+    height:25px;
+}
+
+.logoLeft-H1 a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.logoLeft-H2 a{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+#logoLeft-end{
+    width:105px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.mainLogo{
+    width:170px;
+    height:40px;
+    background: url("../image/logo_e.png");
+    position: absolute;
+    left:570px;
+    top:50px;
+}
+.logoRight{
+
+    position: absolute;
+    left:850px;
+}
+#inp{
+    width:240px;
+    height:30px;
+    border:1px solid red;
+    margin-top:65px;
+}
+.search{
+    display: inline-block;
+    width:70px;
+    height:32px;
+    background: black no-repeat;
+    background-image: url("../image/search.png");
+    background-position: 25px 7px;
+    position: absolute;
+    left:240px;
+    margin-top:-32px;
+}
+.buycar{
+    display: inline-block;
+    width:30px;
+    height:28px;
+    background:yellow;
+    background: url("../image/购物车.png");
+    position: absolute;
+    left:330px;
+    margin-top: -30px;
+}
+.logoRight ul{
+    line-height: 40px;
+}
+.logoRight ul li{
+    list-style: none;
+    float: left;
+    width:35px;
+    height:20px;
+}
+.logoRight ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size:14px;
+    color: #8e8e8e;
+}
+#logoRight-li{
+    width:60px;
+    height:20px;
+}
+.buycar2{
+    width:150px;
+    height:100px;
+    position: absolute;
+    left:1165px;
+    top:98px;
+    z-index: 100;
+    display: none;
+    background: white;
+}
+.Buycar2{
+    width:70px;
+    height:70px;
+    background: url("../image/timg.jpg");
+    background-size: 70px 70px;
+    margin:auto;
+}
+.BuyCar2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.nav{
+    width:100%;
+    height:50px;
+    background: black;
+}
+.nav ul{
+    margin-left: 100px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    width:120px;
+    height:50px;
+    line-height: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    text-underline-color: white;
+}
+
+.mydiv{
+    width:1166px;
+    height:300px;
+    margin-left: 100px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background: white;
+}
+.mydivLeft{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+}
+.mydivLeft ul{
+
+}
+.mydivLeft ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivLeft ul li a{
+    text-decoration: none;
+    color: red;
+}
+.cloth1{
+    border-bottom: 1px solid black;
+    color: red;
+}
+.mydivCenter{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+    margin-left: 50px;
+}
+.mydivCenter ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivCenter ul li a{
+    text-decoration: none;
+    color: red;
+}
+.cloth2{
+    border-bottom: 1px solid black;
+    color: red;
+}
+.mydivRight{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+    margin-left: 50px;
+}
+.mydivRight ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivRight ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.mydivImg{
+    width:285px;
+    height:260px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.big_bottom{
+    width: 100%;
+    height: 300px;
+}
+.topt{
+    width:1166px;
+    height:450px;
+    margin-left:100px;
+    margin-top:10px;
+    position: relative;
+}
+.topLeftt{
+    width:60px;
+    height:60px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    margin-top:-300px;
+}
+.topLeftt a{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+    text-decoration: none;
+    color: gray;
+}
+.topRightt{
+    width:60px;
+    height:60px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    margin-top: -300px;
+    margin-left:1090px;
+}
+.topRightt a{
+    font-size: 50px;
+    font-weight:bolder;
+    text-decoration: none;
+    line-height: 60px;
+    color: gray;
+}
+.vipPic{
+    width:1166px;
+    height:120px;
+    margin-left:100px;
+    margin-top:10px;
+}
+.vipPic img{
+    width:370px;
+    height:105px;
+    margin-left:5px;
+}
+.SALE{
+    width:1166px;
+    height:780px;
+    margin-left:100px;
+}
+.SALE h2{
+    width:300px;
+    height:40px;
+    line-height: 40px;
+    border:1px solid red;
+    text-align: center;
+    margin-top:80px;
+    margin-left:400px;
+}
+.SALE-content{
+    width:1166px;
+    height:500px;
+    margin-top: 30px;
+}
+.SALE-content img{
+    margin-left: 5px;
+}
+.SALE-content2 img{
+    width:186px;
+    height:200px;
+
+}
+.vip{
+    width: 1166px;
+    height:490px;
+    margin-left: 100px;
+}
+.vip h2{
+    width:300px;
+    height:40px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 40px;
+    margin-top:80px;
+    margin-left: 400px;
+}
+.vip-nav{
+    width:1166px;
+    height:40px;
+    margin-top:30px;
+    background: white;
+    position: relative;
+}
+.vip-nav span{
+    margin-left: 90px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+.vip-nav1{
+    width:233px;
+    height:40px;
+    background:url(../image/navactive-green-first.png) no-repeat;
+    float: left;
+}
+.vip-nav2{
+    width:233px;
+    height:40px;
+    float: left;
+}
+.vip-nav3{
+    width:233px;
+    height:40px;
+    float: left;
+}
+.vip-nav4{
+    width:233px;
+    height:40px;
+    float: left;
+}
+.vip-nav5{
+    width:233px;
+    height:40px;
+    float: left;
+}
+.vipSale1{
+    width:1166px;
+    height:350px;
+    position: absolute;
+}
+.vipSale1 img{
+    width:280px;
+    height:350px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.vipSale2{
+    width:1166px;
+    height:350px;
+    position: absolute;
+    display: none;
+}
+.vipSale2 img{
+    width:280px;
+    height:350px;
+    margin-left: 5px;
+    margin-top: 30px;
+}

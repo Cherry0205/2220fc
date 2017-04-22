@@ -1,0 +1,741 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top{
+    width:100%;
+    height:40px;
+    background: #f4f4f4;
+}
+
+.big_bottom{
+    width: 100%;
+    height: 300px!important;
+}
+
+.topLeft{
+    width:120px;
+    height:40px;
+    line-height:40px;
+    float: left;
+    margin-left:100px;
+}
+.topLeft-span{
+    width: 16px;
+    height:12px;
+    display: inline-block;
+    background: url("../image/sprite.base.png");
+    background-position: -18px -68px;
+}
+.topLeft-a{
+    text-decoration: none;
+    color: #000;
+}
+.topLeft-bottom{
+    width:200px;
+    height:210px;
+    background: #f4f4f4;
+    margin-left:100px;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.topLeft-bottom ul li{
+    list-style: none;
+    line-height: 40px;
+
+}
+.topLeft-bottom ul li a{
+    text-decoration: none;
+    color: #9196a0;
+    margin-left:24px;
+}
+.topLeft-bottom1:hover{
+    color: red;
+}
+.topRight{
+    width:790px;
+    height:40px;
+    margin-left:476px;
+}
+.topRight ul{
+    line-height: 40px;
+}
+.topRight ul li{
+    list-style: none;
+    float: left;
+}
+.topRight ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.topRight-li1{
+    width:190px;
+    height:20px;
+}
+.topRight-li2{
+    width:100px;
+    height:20px;
+}
+.topRight-li2-span{
+    display: inline-block;
+    width:10px;
+    height:5px;
+    background: url("../image/sprite.base.png");
+    background-position: -89px -16px;
+}
+.topRight-li3{
+    width:110px;
+    height:20px;
+}
+.topRight-li3-span{
+    display: inline-block;
+    width:11px;
+    height:14px;
+    background: url("../image/sprite.base.png");
+    background-position: -72px -50px;
+}
+.topRight-li4{
+    width:115px;
+    height:20px;
+}
+.topRight-li4-span{
+    display: inline-block;
+    width:15px;
+    height:13px;
+    background: url("../image/sprite.base.png");
+    background-position: -72px -32px;
+}
+.topRight-li5{
+    width:90px;
+    height:20px;
+}
+.topRight-li5-span{
+    display: inline-block;
+    width:16px;
+    height:11px;
+    background: url("../image/sprite.base.png");
+    background-position: 0px -68px;
+}
+.topRight-li6{
+    width:115px;
+    height:20px;
+}
+.topRight-li6-span{
+    display: inline-block;
+    width:16px;
+    height:11px;
+    background: url("../image/sprite.base.png");
+    background-position: 0px -68px;
+}
+.topRight-li7{
+    width:70px;
+    height:20px;
+}
+.topRight-li7-span{
+    display: inline-block;
+    width:10px;
+    height:14px;
+    background: url("../image/sprite.base.png");
+    background-position: -89px 0px;
+}
+#topRight-li7-a{
+    font-size: 14px;
+    color: red;
+}
+.logo{
+    width:100%;
+    height:140px;
+    position: relative;
+}
+.logoLeft{
+    width:430px;
+    height:60px;
+    position: absolute;
+    left:100px;
+    top:78px;
+}
+
+.boy{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.boy1{
+    height:25px;
+}
+.BOY1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.BOY2{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.girl{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.girl1{
+    height:25px;
+}
+.GIRL1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.GIRL2{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.kids{
+    width:80px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.kids1{
+    height:25px;
+}
+.KIDS1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.KIDS2{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.logoLeft-H1{
+    height:25px;
+}
+
+.logoLeft-H1 a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.logoLeft-H2 a{
+    font-size: 17px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+#logoLeft-end{
+    width:105px;
+    height:60px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.mainLogo{
+    width:170px;
+    height:40px;
+    background: url("../image/logo_e.png");
+    position: absolute;
+    left:570px;
+    top:50px;
+}
+.logoRight{
+
+    position: absolute;
+    left:850px;
+}
+#inp{
+    width:240px;
+    height:30px;
+    border:1px solid red;
+    margin-top:65px;
+}
+.search{
+    display: inline-block;
+    width:70px;
+    height:32px;
+    background: black no-repeat;
+    background-image: url("../image/search.png");
+    background-position: 25px 7px;
+    position: absolute;
+    left:240px;
+    margin-top:-32px;
+}
+.buycar{
+    display: inline-block;
+    width:30px;
+    height:28px;
+    background:yellow;
+    background: url("../image/购物车.png");
+    position: absolute;
+    left:330px;
+    margin-top: -30px;
+}
+.logoRight ul{
+    line-height: 40px;
+}
+.logoRight ul li{
+    list-style: none;
+    float: left;
+    width:35px;
+    height:20px;
+}
+.logoRight ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size:14px;
+    color: #8e8e8e;
+}
+#logoRight-li{
+    width:60px;
+    height:20px;
+}
+.buycar2{
+    width:150px;
+    height:100px;
+    position: absolute;
+    left:1165px;
+    top:98px;
+    z-index: 100;
+    display: none;
+    background: white;
+}
+.Buycar2{
+    width:70px;
+    height:70px;
+    background: url("../image/timg.jpg");
+    background-size: 70px 70px;
+    margin:auto;
+}
+.BuyCar2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.nav{
+    width:100%;
+    height:50px;
+    background: black;
+}
+.nav ul{
+    margin-left: 100px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    width:120px;
+    height:50px;
+    line-height: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    text-underline-color: white;
+}
+
+
+.mydiv{
+    width:1166px;
+    height:300px;
+    margin-left: 100px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background: white;
+}
+.mydivLeft{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+}
+.mydivLeft ul{
+
+}
+.mydivLeft ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivLeft ul li a{
+    text-decoration: none;
+    color: red;
+}
+.cloth1{
+    border-bottom: 1px solid black;
+    color: red;
+}
+.mydivCenter{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+    margin-left: 50px;
+}
+.mydivCenter ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivCenter ul li a{
+    text-decoration: none;
+    color: red;
+}
+.cloth2{
+    border-bottom: 1px solid black;
+    color: red;
+}
+.mydivRight{
+    width:230px;
+    height:100%;
+    float: left;
+    border-right: 1px solid gray;
+    margin-left: 50px;
+}
+.mydivRight ul li{
+    list-style: none;
+    width:80%;
+    height:38px;
+    line-height: 38px;
+}
+.mydivRight ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.mydivImg{
+    width:285px;
+    height:260px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.kids_content{
+    width: 1000px;
+    height: 1940px;
+    margin: auto;
+}
+
+.kids_content_left{
+    width: 200px;
+    height: 1940px;
+    float: left;
+}
+
+/*left_top_title*/
+.left_top_title{
+    display: inline-block;
+    width: 200px;
+    height:50px;
+    line-height: 50px;
+    float: left;
+}
+
+.left_top_title a{
+    text-decoration: none;
+    color: #666666;
+}
+/*left_top_title end*/
+
+/*new_clothes end*/
+.new_clothes{
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+    border-bottom: 1px #EBEBEB solid;
+    float: left;
+}
+
+.new_clothes li{
+    list-style: none;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.new_clothes li a{
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    float: left;
+    text-indent: 20px;
+    text-decoration: none;
+    color: #666666;
+}
+/*new_clothes end*/
+
+/*new_classify*/
+.new_classify{
+    width: 180px;
+    height: 325px;
+    border-bottom: 1px #EBEBEB solid;
+    display: inline-block;
+    float: left;
+}
+
+.new_classify li{
+    list-style: none;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.new_classify li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+}
+#li14{
+    display: inline-block;
+    width:200px;
+    height:30px;
+}
+#fashionkids{
+    width:200px;
+    height:370px;
+    display:none ;
+}
+#fashionkids>a{
+    font-weight: normal;
+    color:#666666;
+}
+/*new_classify end*/
+
+.kids_content_right{
+    margin-top: 40px;
+    width: 800px;
+    height: 1900px;
+    float: left;
+}
+
+/*kids_content_right ul*/
+#items_selected>li{
+    width: 100px;
+    height: 100px;
+    margin: 0px 49px;
+}
+
+#items_selected>li>a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin: 35px 0px;
+    background-color:black;
+    color: white;
+}
+
+#items_selected>li>a:hover{
+    text-decoration: none;
+}
+
+.kids_content_right>ul{
+    display: inline-block;
+    width: 798px;
+    height: 100px;
+    text-align: center;
+    border:1px #DFDFDF solid;
+    float: left;
+}
+
+.kids_content_right>ul>li{
+    list-style: none;
+    display: inline-block;
+    width: 199px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.kids_content_right>ul>li>a{
+    display: inline-block;
+    width: 199px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #6C6C6C;
+    text-decoration: none;
+    position: relative;
+}
+
+.kids_content_right>ul>li>a>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px #CCCCCC solid;
+    position: absolute;
+    top:15px;
+    left:50px;
+}
+
+.kids_content_right>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+.money_write{
+    width: 40px;
+    height: 20px;
+}
+
+#more_select{
+    width: 50px;
+    margin-left: 75px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px #555555 solid;
+}
+
+#black_select{
+    background-color: black;
+}
+
+#white_select{
+    background-color: white;
+}
+
+#blue_select{
+    background-color: blue;
+}
+
+#green_select{
+    background-color: green;
+}
+
+#red_select{
+    background-color: red;
+}
+/*kids_content_right ul end*/
+
+/*select_bar*/
+#select_bar{
+    display: inline-block;
+    width: 800px;
+    height:50px;
+    line-height: 50px;
+    float: left;
+    margin:20px 0px;
+    background-color: RGB(245,247,246);
+    position: relative;
+}
+
+#select_bar>ul{
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    margin-right: 200px;
+    float: left;
+}
+
+#select_bar>ul>li{
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    float: left;
+}
+
+#select_bar>ul>li>a{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color: #99999E;
+    text-decoration: none;
+}
+
+#select_bar>select{
+    width: 60px;
+    margin-right: 10px;
+}
+
+#select_bar>p{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    float: right;
+    text-align: center;
+}
+
+#select_bar>p>a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    margin: 0px 5px;
+}
+
+#select_bar>p>span{
+    color: red;
+}
+/*select_bar end*/
+
+/*kids_content_right div*/
+.kids_content_right>div{
+    display: inline-block;
+    width: 250px;
+    height: 330px;
+    float: left;
+    margin:15px 8px ;
+}
+
+.kids_content_right>div>a{
+    display: inline-block;
+    width: 250px;
+    height: 330px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+.kids_content_right>div>a>img{
+    display: inline-block;
+    width: 210px;
+    margin: 0px 20px;
+    height: 280px;
+    float: left;
+}
+
+.kids_content_right>div>a>p{
+    display: inline-block;
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kids_content_right>div>a>p>span{
+    width: 125px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+/*kids_content_right div end*/
